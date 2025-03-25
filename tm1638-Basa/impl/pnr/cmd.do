@@ -1,0 +1,13 @@
+-d C:\tm1638-verilog-master\test1\bekap\tm1638-rab-perevod\impl\gwsynthesis\tm1638-verilog.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst C:\tm1638-verilog-master\test1\bekap\tm1638-rab-perevod\src\tm1638-verilog.cst
+-cfg C:\tm1638-verilog-master\test1\bekap\tm1638-rab-perevod\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
