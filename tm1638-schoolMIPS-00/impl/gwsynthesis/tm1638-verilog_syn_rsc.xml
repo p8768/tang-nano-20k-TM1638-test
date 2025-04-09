@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Register="90(0)" T_Alu="112(0)" T_Lut="281(0)" T_Ssram="16(0)">
+    <SubModule name="u_basic" Register="47" Alu="24" Lut="159" T_Register="64(47)" T_Alu="24(24)" T_Lut="186(159)">
+        <SubModule name="u_tm1638" Register="17" Lut="27" T_Register="17(17)" T_Lut="27(27)"/>
+    </SubModule>
+    <SubModule name="sm_top" T_Register="26(0)" T_Alu="88(0)" T_Lut="95(0)" T_Ssram="16(0)">
+        <SubModule name="sm_clk_divider" Alu="19" Lut="1" T_Register="20(0)" T_Alu="19(19)" T_Lut="1(1)">
+            <SubModule name="r_cntr" Register="20" T_Register="20(20)"/>
+        </SubModule>
+        <SubModule name="reset_rom" Lut="3" T_Lut="3(3)"/>
+        <SubModule name="sm_cpu" Alu="6" Lut="26" T_Register="6(0)" T_Alu="69(6)" T_Lut="91(26)" T_Ssram="16(0)">
+            <SubModule name="r_pc" Register="6" T_Register="6(6)"/>
+            <SubModule name="rf" Lut="32" Ssram="16" T_Lut="32(32)" T_Ssram="16(16)"/>
+            <SubModule name="alu" Alu="63" Lut="33" T_Alu="63(63)" T_Lut="33(33)"/>
+        </SubModule>
+    </SubModule>
+</Module>

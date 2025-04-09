@@ -1,0 +1,132 @@
+[
+ {
+  "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/top.v",
+    "InstLine" : 25,
+    "InstName" : "u_basic",
+    "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/basic.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "basic",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/basic.v",
+      "InstLine" : 56,
+      "InstName" : "u_tm1638",
+      "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/tm1638.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "tm1638"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/top.v",
+    "InstLine" : 36,
+    "InstName" : "sm_top",
+    "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "sm_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "InstLine" : 25,
+      "InstName" : "f0",
+      "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "ModuleLine" : 58,
+      "ModuleName" : "sm_debouncer"
+     },
+     {
+      "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "InstLine" : 26,
+      "InstName" : "f1",
+      "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "ModuleLine" : 58,
+      "ModuleName" : "sm_debouncer"
+     },
+     {
+      "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "InstLine" : 27,
+      "InstName" : "f2",
+      "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "ModuleLine" : 58,
+      "ModuleName" : "sm_debouncer"
+     },
+     {
+      "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "InstLine" : 31,
+      "InstName" : "sm_clk_divider",
+      "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "ModuleLine" : 77,
+      "ModuleName" : "sm_clk_divider",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+        "InstLine" : 91,
+        "InstName" : "r_cntr",
+        "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_register.v",
+        "ModuleLine" : 18,
+        "ModuleName" : "sm_register_we"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "InstLine" : 43,
+      "InstName" : "reset_rom",
+      "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_rom.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "sm_rom"
+     },
+     {
+      "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+      "InstLine" : 45,
+      "InstName" : "sm_cpu",
+      "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "sm_cpu",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.v",
+        "InstLine" : 35,
+        "InstName" : "r_pc",
+        "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_register.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "sm_register"
+       },
+       {
+        "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.v",
+        "InstLine" : 51,
+        "InstName" : "rf",
+        "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.v",
+        "ModuleLine" : 163,
+        "ModuleName" : "sm_register_file"
+       },
+       {
+        "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.v",
+        "InstLine" : 72,
+        "InstName" : "alu",
+        "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.v",
+        "ModuleLine" : 139,
+        "ModuleName" : "sm_alu"
+       },
+       {
+        "InstFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.v",
+        "InstLine" : 83,
+        "InstName" : "sm_control",
+        "ModuleFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.v",
+        "ModuleLine" : 97,
+        "ModuleName" : "sm_control"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

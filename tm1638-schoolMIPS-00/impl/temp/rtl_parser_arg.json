@@ -1,0 +1,45 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/basic.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_cpu.vh",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_register.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/sm_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/tm1638.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/tm1638-verilog-master/test1/bekap/tm1638-schoolMIPS-00/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
